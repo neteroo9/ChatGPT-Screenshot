@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Screenshot",
+  "version": "1.0",
+  "description": "A Chrome extension to save ChatGPT conversation to an image",
+  "icons": {
+    "16": "/favicon_io/favicon-16x16.png",
+    "32": "/favicon_io/favicon-32x32.png",
+    "48": "/favicon_io/favicon-48x48.png",
+    "128": "/favicon_io/favicon-128x128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "downloads"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "html2canvas.min.js",
+        "content.js"
+      ]
+    }
+  ]
+}
