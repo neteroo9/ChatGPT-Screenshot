@@ -8,7 +8,7 @@ The **ChatGPT Screenshot** Chrome Extension is a simple tool that allows users t
 
 To install the **ChatGPT Screenshot** Chrome Extension, follow these steps:
 
-1.  Download the latest release of the extension from the [Releases page](https://github.com/your-username/your-repo/releases).
+1.  Download the latest release of the extension from the [Releases page](https://github.com/neteroo9/ChatGPT-Screenshot/releases).
 2.  Unzip the downloaded file.
 3.  Open Google Chrome and navigate to the extensions page (`chrome://extensions`).
 4.  Enable "Developer mode" by clicking the toggle switch in the top right corner.
